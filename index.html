@@ -1,0 +1,56 @@
+<html>
+<head>
+	<title>IWB PTY Ltd | Home </title>
+	<link rel="stylesheet" href="style123.css">
+</head>
+	
+<body>
+	<header> <h1> IWB PTY Ltd</h1>
+		<img src="2.jpg" width=130 height=130>
+		<div class="menu-toggle" id="mobile-menu">☰</div>
+		<nav id="nav-menu"><a href="index.html">Home page</a>
+		     <a href="services.html">our services</a>
+		     <a href="contact.html">Contact</a></nav>
+	</header>
+
+	<main>
+	<section class="hero"><h2> Fighting E-waste, Forging a sustainable future</h2>
+		<H2>First step to fighting it</h2>
+		<a href="services.html"><button>Learn more</button></a>
+	</section>
+
+	<section class="content">
+  	<div class="columns">
+    	<div class="column">
+      	<h3>Our Mission</h3>
+      	<p>To reduce electronic waste through responsible recycling and secure data 	destruction.</p>
+    	</div>
+    	<div class="column">
+      	<h3>Our Vision</h3>
+      	<p>To raise awareness and provide convenient solutions, creating a sustainable future for 	communities and businesses.</p>
+    	</div>
+  	</div>
+	</section>
+	</main>
+
+	<img src="1.png">
+   	<footer> &copy; 2023 IWB PTY LTD. All rights reserved.
+	<a href="Contact.html">Contact Page</a>
+	</footer>
+
+	<script>
+  	const menuToggle = document.getElementById('mobile-menu');
+ 	const navMenu = document.getElementById('nav-menu');
+
+  	menuToggle.addEventListener('click', () => {
+    	if (navMenu.style.display === "flex" || navMenu.style.display === "block") {
+      	navMenu.style.display = "none";
+    	} else {
+      	navMenu.style.display = "flex";
+    	}
+  	});
+	</script>
+
+</body>
+</html>
+				
